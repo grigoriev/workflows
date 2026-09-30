@@ -1,0 +1,12 @@
+grigoriev/workflows
+Copyright 2026-present Sergey Grigoriev
+
+This repository contains derived work of
+https://github.com/SchweizerischeBundesbahnen/github-workflows-polarion
+Copyright 2026-present SBB AG and contributors
+Licensed under the Apache License, Version 2.0.
+
+Derived and modified files:
+- .github/workflows/claude-review.yml (from reusable-claude-code-review.yml)
+- .github/workflows/claude.yml (from reusable-claude.yml)
+- .github/scripts/check_tool_list_parity.py
