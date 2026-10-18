@@ -8,5 +8,4 @@ Licensed under the Apache License, Version 2.0.
 
 Derived and modified files:
 - .github/workflows/claude-review.yml (from reusable-claude-code-review.yml)
-- .github/workflows/claude.yml (from reusable-claude.yml)
 - .github/scripts/check_tool_list_parity.py
