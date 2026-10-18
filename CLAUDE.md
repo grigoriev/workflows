@@ -2,9 +2,9 @@
 
 Reusable GitHub Actions workflows, called from the repositories under github.com/grigoriev.
 
-- `claude-review.yml` and `claude.yml` derive from
+- `claude-review.yml` derives from
   SchweizerischeBundesbahnen/github-workflows-polarion (Apache-2.0). Keep the NOTICE current.
-- `claude-code-review.yml` and `claude-code.yml` are the callers of this repository.
+- `claude-code-review.yml` is the caller of this repository.
 - Pin every action by SHA with a version comment.
 - `settings.permissions.allow` and `--allowedTools` in `claude-review.yml` must hold the same
   tools. `check_tool_list_parity.py` asserts it in CI.

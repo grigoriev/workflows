@@ -9,5 +9,4 @@ callers pin a commit of `main`.
 ### Added
 - `claude-review.yml`: Claude Code review of a pull request, derived from
   SchweizerischeBundesbahnen/github-workflows-polarion.
-- `claude.yml`: Claude Code on an `@claude` mention, derived from the same source.
 - CI with actionlint, zizmor and the tool list parity check.

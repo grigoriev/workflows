@@ -5,15 +5,12 @@ rules:
   secrets-outside-env:
     ignore:
       - claude-review.yml
-      - claude.yml
       - claude-code-review.yml
-      - claude-code.yml
   # claude-code-action needs git credentials to fetch the pull request branch.
   # The runner is ephemeral and the token expires with the job.
   artipacked:
     ignore:
       - claude-review.yml
-      - claude.yml
   # zizmor suggests the new $/ syntax for workflows of this repository.
   # actionlint does not know it yet, so keep ./ for now.
   self-repository:
